@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr = [10, 20, 4, 10, 21, 1, 20, 10, 4, 10];
+    var max = arr[0];
+    for (var i = 1; i < arr.length; i++) {
+       if (max < arr[i]) {
+           max = arr[i];
+        }
+     }
+    document.write('phần tử lớn nhất là: ' + max + '<br>');
+    document.write('Nằm tại vị trí thứ: ' + arr.indexOf(max) + '<br>');
+</script>
+</body>
+</html>
